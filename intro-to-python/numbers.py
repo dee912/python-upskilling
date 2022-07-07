@@ -9,3 +9,9 @@ num_one = 100;
 num_two = 4;
 
 print(num_one + num_two);
+
+import math;
+import random;
+
+print(math.pi);
+print(random.randint(1, 5));
