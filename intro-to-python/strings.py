@@ -8,7 +8,7 @@ multiline_string = '''
     This is a multiline string
     
     It will respect whitespace
-'''
+''';
 print(multiline_string);
 
 name = 'Devante';
@@ -16,5 +16,7 @@ name = 'Devante';
 age = 26;
 
 concat_string = 'Hello my name is ' + name + ', I am ' + str(age) + ' years old';
-
 print(concat_string);
+
+formate_string = f'Hello my name is {name}, I am {age} years old';
+print(formate_string);
